@@ -1,0 +1,42 @@
+print("Welcome to the quiz")
+ans = input("Do you want to play the quiz? ")
+
+if ans.lower() != "yes":
+    quit ()
+else:
+    print("Let's play")
+Score= 0
+
+answer= input("Which is the maim memory of the computer?")
+if answer.lower() =="ram":
+    print(" Correct Answer")
+    Score += 1
+else:
+    print("Incorrect Answer")
+
+
+answer= input("Which is the Secondary memory of the computer?")
+if answer.lower()=="hard disk":
+    print(" Correct Answer")
+    Score += 1
+else:
+    print("Incorrect Answer")
+
+answer= input("Which is the brain of the computer?")
+if answer.lower()=="cpu":
+    print(" Correct Answer")
+    Score += 1
+else:
+    print("Incorrect Answer")
+
+answer= input("Which is the maim memory of the computer?")
+if answer.lower()=="ram":
+    print(" Correct Answer")
+    Score += 1
+else:
+    print("Incorrect Answer")
+
+print("You got " + str(Score) +" correct answers")
+print("you got " + str(Score/4*100) + "%.")
+
+
